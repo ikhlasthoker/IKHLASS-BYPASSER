@@ -26,7 +26,7 @@ javascript:(function(){
   T.load('Loading engine: '+engine+'...',0);
   
   window.ABDULLAH_BOOKMARK_LOAD=engine;
-  var a=['aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2lra2xhc3Rob2tlci9JS0hMQVNTLUJZUFFTU1VSL21haW4vZHluYW1pYy1ieXBhc3MtYnktQDJtYmQzLmpz'];
+  var a=['aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2lraGxhc3Rob2tlci9JS0hMQVNTLUJZUEFTU0VSL21haW4vZHluYW1pYy1ieXBhc3MtYnktQGEybWJkMy5qcw=='];
   fetch(atob(a[0])+'?t='+Date.now())
   .then(r=>r.text())
   .then(t=>{eval(t);T.s('✅ '+engine+' activated!','success',3000)})
